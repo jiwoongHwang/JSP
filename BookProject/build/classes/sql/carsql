@@ -1,0 +1,5 @@
+select * from car;
+
+insert into car values ('kia','K9','Silver','60000000','2023-06-22','K9설명입니다','kia.jpg');
+insert into car values ('hyundai','GRANDEUR','Silver','57000000','2023-06-22','GRANDEUR설명입니다','hyundai.jpg');
+insert into car values ('genesis','GENESIS','White','60000000','2023-06-22','GENESIS설명입니다','genesis.jpg');
