@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+.box-content1 {
+	background-color : lightgray;
+}
+
+.box-content-main {
+	border : 1px solid black;
+}
+
+.box-content-main .profile {
+	height: 150px;
+}
+
+
+.box-content-top {
+	background-color: lightgoldenrodyellow;
+	height : 50px;
+}
+
+.box-content-bottom {
+	display : flex;
+	justify-content: space-between;
+	height: 150px;
+}
+
+
+.box-content-bottom textarea {
+    width: 93.5%;
+    height: 97%;
+	border : none;
+	resize : none;
+	
+}
+
+.box-content-bottom1 {
+	display : flex;
+	justify-content: space-between;
+	height: 50px;
+}
+
+.box-content-bottom1 textarea {
+	width : 700px;
+	height: 50px;
+	border : none;
+	resize : none;
+}
+
+.box-content-bottom1 input {
+	padding : -10p
+}
+
+.main {
+	height: 455px;
+    overflow: auto;
+}
+
+.button {
+	width:10%;
+    padding-top: 3.6%;
+    padding-left: 6%;
+}
+
+.reply {
+	border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.deletebutton {
+	display: flex;
+    justify-content: end;
+    margin-top: 1%;
+}

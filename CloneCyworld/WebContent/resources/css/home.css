@@ -1,0 +1,94 @@
+
+
+.container {
+	display: flex;
+	width: 1200px;
+	height: 682px;
+    background-color: lightblue;
+	padding: 15px;
+	border-radius: 10px
+}
+
+.container .left-box {
+	width: 30%;
+	background-color: white;
+	margin-right: 30px;
+	}
+
+.container .right-box {
+	width: 70%;
+	background-color : white;
+}
+
+.profile {
+	border: 1px solid #171717;
+	height: 250px;
+	margin: auto;
+	margin-left: 35px;
+    margin-top: 70px;
+    width: 75%;
+}
+
+
+.box-radius-5 {
+	border: 1px solid #171717;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.1) 5px 5px 5px -4px;
+}
+
+.dot-line {
+	border-bottom: 1px dotted gray;
+	width: 100%;
+	margin: 20px 0;
+}
+
+.right-box .right-box-content {
+	display: flex;
+	justify-content: space-between;
+	width : 90%;
+}
+
+.right-box-content .menu {
+	display: flex;
+	justify-content: center;
+	width: 100px;
+	padding: 5px;
+}
+
+.menu-wrapper+.menu-wrapper {
+	border-top: 1px solid black;
+}
+
+.menu+.menu {
+	border-left: 1px solid black;
+}
+
+.logo-wrapper {
+	width: 50%;
+	padding: 15px;
+	display: block;
+  	margin-left: auto;
+ 	margin-right: auto;
+}
+
+.logo-wrapper .literal-logo {
+	width: 100%;
+}
+
+.big-img {
+	width : 92%;
+	height: 453px;
+	border: 1px solid black;
+	border: none;
+}
+
+.bgm-wrapper {
+	display : flex;
+	justify-content: flex-end;
+	width : 100%;
+}
+
+.logout {
+    display: flex;
+    justify-content: space-between;
+}
